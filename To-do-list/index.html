@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/bc3efcbc6a.js" crossorigin="anonymous"></script>
+    <title>To Do</title>
+</head>
+
+<body>
+
+
+    <div class="column">
+
+        <div class="card" id="main">
+
+
+            <h1 class="title">To Do</h1>
+            <div class="inner-row">
+
+                <form id="task-form">
+
+                    <div class="field">
+
+                        <input type="text" name="task" id="task" placeholder="Task to add">
+
+                    </div>
+                    <input type="submit" value="Add to List" class="btn">
+
+                </form>
+
+
+            </div>
+
+            <div class="action">
+
+                <h3 class="task-title">Tasks</h5>
+                    <div class="field">
+
+                        <input type="text" name="filter" id="filter" placeholder="Filter Tasks">
+
+                    </div>
+
+                    <ul class="task-list"></ul>
+                    <a href="#" class="btn dark">Clear Tasks</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Javascript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
